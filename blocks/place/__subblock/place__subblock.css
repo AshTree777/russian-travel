@@ -1,0 +1,19 @@
+.place__subblock {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place__subblock {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__subblock {
+        gap: 40px;
+    }
+}
