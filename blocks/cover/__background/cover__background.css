@@ -10,6 +10,7 @@
 }
 
 .cover__background:hover {
+    transition: background-color ease-out 0.2s;
     background-color: rgba(42, 44, 47, .8);
 }
 

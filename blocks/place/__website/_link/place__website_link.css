@@ -7,7 +7,7 @@
     color: white;
 }
 
-
-
-
-
+.place__website_link:hover {
+    transition: color ease-out 0.2s;
+    color: rgba(255, 255, 255, 0.8);
+}
