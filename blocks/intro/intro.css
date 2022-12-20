@@ -37,8 +37,8 @@
 @media screen and (min-width: 1024px) {
     .intro {
         margin-left: 48px;
-        margin-top: 92px;
-        min-width: 690px;
+        margin-top: 89px;
+        margin-bottom: 92px;
         width: 100%;
         min-height: 429px;
     }

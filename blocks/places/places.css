@@ -31,9 +31,11 @@
 
 @media screen and (min-width: 1024px) {
     .places {
+        margin: 92px auto;
         min-width: 928px;
         width: 100%;
         min-height: 3292px;
+        gap: 80px;
     }
 }
 

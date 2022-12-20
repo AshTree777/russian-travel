@@ -12,6 +12,12 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .place__subblock {
+        gap: 32px;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .place__subblock {
         gap: 40px;

@@ -1,7 +1,14 @@
 .place__website_url-heading {
+    padding-left: 16px;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    .place__website_url-heading {
+        padding: 0;
+    }
 }

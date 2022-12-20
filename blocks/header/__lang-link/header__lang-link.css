@@ -14,6 +14,11 @@
     text-align: center;
 }
 
+.header__lang-link:hover {
+    transition: color ease-out 0.2s;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 @media screen and (min-width: 425px) {
     .header__lang-link {
         padding-bottom: 7px;
