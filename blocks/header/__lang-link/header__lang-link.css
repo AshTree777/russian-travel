@@ -12,6 +12,7 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
 
 .header__lang-link:hover {
