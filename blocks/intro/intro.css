@@ -2,7 +2,6 @@
     margin: 64px auto;
     max-width: 288px;
     width: 100%;
-    max-height: 754px;
     display: flex;
     flex-direction: column;
 }
@@ -11,7 +10,6 @@
     .intro {
         min-width: 288px;
         width: 100%;
-        min-height: 754px;
     }
 }
 
@@ -21,7 +19,6 @@
         margin: 64px auto;
         min-width: 380px;
         width: 100%;
-        min-height: 700px;
     }
 }
 
@@ -30,24 +27,20 @@
         margin: 88px auto;
         min-width: 720px;
         width: 100%;
-        min-height: 429px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .intro {
-        margin-left: 48px;
-        margin-top: 89px;
-        margin-bottom: 92px;
-        width: 100%;
-        min-height: 429px;
+        min-width: 928px;
+        padding: 0 48px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        margin-left: 148px;
-
+        max-width: 984px;
+        padding: 0 148px;
     }
 }
 

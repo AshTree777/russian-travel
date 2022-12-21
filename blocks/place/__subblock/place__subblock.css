@@ -8,7 +8,7 @@
     .place__subblock {
         flex-direction: row;
         justify-content: flex-start;
-        gap: 25px;
+        gap: 28px;
     }
 }
 

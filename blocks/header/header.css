@@ -1,7 +1,9 @@
 .header {
-    margin: 16px auto 48px;
+    padding-top: 16px;
+    margin: 0 auto 48px;
     max-width: 288px;
     width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -16,7 +18,8 @@
 
 @media screen and (min-width: 425px) {
     .header {
-        margin: 18px auto 48px;
+        padding-top: 18px;
+        margin: 0 auto 48px;
         min-width: 380px;
         width: 100%;
     }
@@ -24,14 +27,14 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        margin-top: 28px;
+        padding-top: 28px;
         min-width: 720px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .header {
-        margin: 28px auto 48px;
+        margin: 0 auto 48px;
         min-width: 928px;
     }
 }

@@ -30,21 +30,7 @@
 @media screen and (min-width: 768px) {
     .header__lang-link {
         padding-bottom: 6px;
-        /*здесь, и далее уточнить*/
         font-size: 24px;
         line-height: 28px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .page {
-        padding-bottom: 6px;/*здесь, и далее уточнить*/
-
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .page {
-        padding-bottom: 6px;/*здесь, и далее уточнить*/
     }
 }

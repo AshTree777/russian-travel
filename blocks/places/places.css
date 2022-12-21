@@ -1,15 +1,14 @@
 .places {
-    margin: 64px auto 66px;
+    margin: 64px auto 42px;
     list-style: none;
     padding: 0;
     width: 320px;
-    /*min-height: 5177px;*/
-    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 48px;
 }
 
 @media screen and (min-width: 425px) {
@@ -24,8 +23,7 @@
         margin-top: 89px;
         min-width: 720px;
         width: 100%;
-        min-height: 2809px;
-        gap: 73px;
+        gap: 68px;
     }
 }
 
@@ -34,7 +32,6 @@
         margin: 92px auto;
         min-width: 928px;
         width: 100%;
-        min-height: 3292px;
         gap: 80px;
     }
 }
@@ -43,7 +40,6 @@
     .places {
         min-width: 984px;
         width: 100%;
-        max-height: 3392px;
     }
 }
 
