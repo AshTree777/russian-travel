@@ -1,5 +1,5 @@
 .places {
-    margin: 64px auto 42px;
+    margin: 64px auto;
     list-style: none;
     padding: 0;
     width: 320px;
@@ -14,16 +14,14 @@
 @media screen and (min-width: 425px) {
     .places {
         min-width: 425px;
-        width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .places {
-        margin-top: 89px;
+        margin: 88px 0 90px;
         min-width: 720px;
-        width: 100%;
-        gap: 68px;
+        gap: 73px;
     }
 }
 
@@ -31,7 +29,6 @@
     .places {
         margin: 92px auto;
         min-width: 928px;
-        width: 100%;
         gap: 80px;
     }
 }
@@ -39,7 +36,6 @@
 @media screen and (min-width: 1280px) {
     .places {
         min-width: 984px;
-        width: 100%;
     }
 }
 

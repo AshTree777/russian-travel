@@ -1,5 +1,5 @@
-.place__website_link {
-    padding: 0 0 32px 16px;
+.place__website-link {
+    padding-left: 16px;
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
@@ -8,19 +8,19 @@
     color: white;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
     transition: color ease-out 0.2s;
     color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (min-width: 425px) {
-    .place__website_link {
+    .place__website-link {
         padding-left: 20px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .place__website_link {
+    .place__website-link {
         padding: 0;
     }
 }

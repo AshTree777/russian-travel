@@ -1,6 +1,5 @@
 .place__paragraphs {
-    margin: 0;
-    margin-left: 16px;
+    margin: 0 auto;
     padding: 0;
     max-width: 288px;
     width: 100%;
@@ -13,7 +12,6 @@
 @media screen and (min-width: 425px) {
     .place__paragraphs {
         min-width: 383px;
-        width: 100%;
     }
 }
 
@@ -21,7 +19,6 @@
     .place__paragraphs {
         margin: 0;
         min-width: 352px;
-        width: 100%;
         gap: 26px;
     }
 }
@@ -29,7 +26,6 @@
 @media screen and (min-width: 1024px) {
     .place__paragraphs {
         min-width: 456px;
-        width: 100%;
         gap: 27px;
     }
 }
@@ -37,6 +33,5 @@
 @media screen and (min-width: 1280px) {
     .place__paragraphs {
         min-width: 484px;
-        width: 100%;
     }
 }
