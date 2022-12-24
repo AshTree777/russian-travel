@@ -1,4 +1,6 @@
 .cover__background {
+    min-width: 320px;
+    min-height: 200px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -16,13 +18,6 @@
 .cover__background:hover {
     transition: background-color ease-out 0.2s;
     background-color: rgba(42, 44, 47, .8);
-}
-
-@media screen and (min-width: 320px) {
-    .cover__background {
-        min-width: 320px;
-        min-height: 200px;
-    }
 }
 
 @media screen and (min-width: 425px) {
