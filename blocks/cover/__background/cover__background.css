@@ -2,6 +2,7 @@
     min-width: 320px;
     min-height: 200px;
     width: 100%;
+    box-sizing: content-box;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -22,28 +23,24 @@
 
 @media screen and (min-width: 425px) {
     .cover__background {
-        min-width: 425px;
         min-height: 265px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .cover__background {
-        min-width: 768px;
         min-height: 480px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__background {
-        min-width: 1024px;
         min-height: 640px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__background {
-        min-width: 1184px;
         min-height: 740px;
     }
 }
